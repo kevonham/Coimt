@@ -1,0 +1,136 @@
+
+.main {
+width:650px;
+height:700px;
+margin:auto;
+padding:20px 20px 20px 20px;
+background:#FFFFCC;
+border: #C0C0C0 solid 10px;
+border-image:url(strip.png) 10 10 round;
+}
+
+body {
+background #fdf5e6;
+}
+
+h1 {
+display: flex;
+color:#FF7F50;
+font-size:30px;
+margin:15px 0px 15px 0px;
+justify-content:center;
+}
+
+h2 {
+color:black;
+font-size:18px;
+margin:0px 0px 15px 40px;
+}
+
+
+input[type="text"]
+ {
+width: 120px;
+font-size:17px;
+border-radius: 10px;
+}
+select {
+font-size:17px;
+border-radius: 10px;
+}
+textarea {
+font-size:20px;
+border-radius: 10px;
+}
+div {
+margin:0px 0px 10px 0px;
+}
+
+.fname{
+    display: flex;
+}
+.fname h2{
+    width: 200px;
+}
+
+.name{
+    display: flex;
+}
+.name h2{
+    width: 200px;
+}
+
+.gender{
+    display: flex;
+}
+.gender h2{
+    width: 200px;
+}
+
+.address{
+    display: flex;
+}
+.address h2{
+    width: 200px;
+}
+
+.num{
+    display: flex;
+}
+.num h2{
+    width: 200px;
+}
+
+.madd{
+    display: flex;
+}
+.madd h2{
+    width: 200px;
+}
+
+.resource{
+    display: flex;
+}
+.resource h2{
+    width: 200px;
+ }
+
+.category{
+    display: flex;
+}
+.category h2{
+    width: 200px;
+}
+.question h2{
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.button input{
+    font-size: 20px;
+}
+
+
+.button {
+    display: flex;
+    justify-content:center;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #67c5ff;
+}
+.button :hover {
+    background: #67c5ff;
+    color: white;
+}
+
+.button2 {
+    display: flex;
+    justify-content:center;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #67c5ff;
+}
+.button2 :hover {
+    background: #67c5ff;
+    color: white;
+}
